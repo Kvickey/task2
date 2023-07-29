@@ -63,7 +63,7 @@ const ContactForm = () => {
             <div className="form-group1">
               <label htmlFor="phone">Phone Number</label><br></br>
               <input
-                type="text"
+                type="number"
                 id="phone"
                 value={phone}
                 onChange={(event) => setPhone(event.target.value)}
